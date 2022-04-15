@@ -8,10 +8,10 @@
 
 ## Contributions
 1. Krishnaa - <br>
-    Setting up the environment on a ubuntu machine with required libraries.
-    Fork child processes and exit on completion
+    Setting up the environment on a ubuntu machine with required libraries <br>
+    Fork child processes and exit on completion 
 2. Saurabh - <br>
-    Identifying socket setup configuration and processing
+    Identifying socket setup configuration and processing <br>
     Find UID for nobody user and perform privilege dropping for child processes
     
 We performed these activities in parallel and proceeded further.
