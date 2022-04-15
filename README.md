@@ -1,11 +1,12 @@
 # CMPE279 : Software Security Technologies
-# Assignment 1
 
 # Team members
 1. Krishnaa Satyanarayana
 2. Saurab Kannawar
 
-# Contributions
+# Assignment 1
+
+## Contributions
 1. Krishnaa - <br>
     Setting up the environment on a ubuntu machine with required libraries.
     Fork child processes and exit on completion
@@ -15,7 +16,7 @@
     
 We performed these activities in parallel and proceeded further.
 
-# Steps
+## Steps
 
 <h2> Setting up the Ubuntu machine on Cloud - </h2>
 
@@ -43,7 +44,7 @@ Instance details
     a. sudo ./server
     b. sudo ./client
   
-# Assignment 1 Tasks
+## Assignment 1 Tasks
 1. Identify data processing and socket setup code components
 2. Fork child process using fork() operation
 3. Perform privilege separation on child process using setuid() 
