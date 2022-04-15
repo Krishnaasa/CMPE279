@@ -2,7 +2,7 @@
 
 # Team members
 1. Krishnaa Satyanarayana
-2. Saurab Kannawar
+2. Saurabh Kannawar
 
 # Assignment 1
 
