@@ -50,5 +50,9 @@ Instance details
 3. Perform privilege separation on child process using setuid() 
 
     
+## Screenshot of Output
+
+![Output](https://user-images.githubusercontent.com/9292835/163663691-21080607-ec7e-4323-ac91-cccc670266a7.jpeg)
+
 
     
