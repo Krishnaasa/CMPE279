@@ -77,4 +77,4 @@ Github repo https://github.com/krishna201294/CMPE279/tree/main/Assignment2 </i>
 
 ## Screenshot of Output
 
-    
+<img width="1439" alt="Assignment 2 Output at 7 31 40 PM" src="https://user-images.githubusercontent.com/9292835/164135739-3b82544e-4d2c-4692-8387-8ac6808283c9.png">
