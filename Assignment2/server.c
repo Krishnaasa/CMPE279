@@ -61,7 +61,7 @@ int main(int argc, char const *argv[])
             exit(EXIT_FAILURE);
         }
         printf("Original UID is %d \n", getuid());
-
+        printf("This is parent process");
         pid_t child_pid = fork();
         if(child_pid<0){
             perror("child failed");
@@ -70,11 +70,10 @@ int main(int argc, char const *argv[])
         else if(child_pid == 0){
             char socket_address[12];
             sprintf(socket_address, "%d", new_socket);
-
             char * paramsList[] = {"./server", socket_address, NULL};
             if(execvp(paramsList[0], paramsList) < 0){
-            perror("exec");
-            exit(EXIT_FAILURE);
+                perror("exec");
+                exit(EXIT_FAILURE);
             }
         }
         if(waitpid(child_pid, &childp_status, 0) < 0){
@@ -85,6 +84,7 @@ int main(int argc, char const *argv[])
     
     else{
         pw = getpwnam("nobody"); // getting UID for nobody
+        printf("This is child process \n");
         printf("Forked UID for user nobody is %ld \n", (long)pw->pw_uid);
         if(pw==NULL){
             printf("Get of user information failed.\n");
